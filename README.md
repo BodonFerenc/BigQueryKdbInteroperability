@@ -9,3 +9,7 @@ $ export csbucketname="myCSBucketName"
 ```
 
 then run `createBQTables.sh` to create sample tables.
+
+The script create a dataset called `bqkdb` and creates two BigQuery tables
+   * allBQSimpleTypes, that contain columns of all types
+   * safeBQTypesArray, that contains array columns of string, integer and float

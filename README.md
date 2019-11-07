@@ -11,5 +11,13 @@ $ export csbucketname="myCSBucketName"
 then run `createBQTables.sh` to create sample tables.
 
 The script create a dataset called `bqkdb` and creates two BigQuery tables
-   * allBQSimpleTypes, that contain columns of all types
-   * safeBQTypesArray, that contains array columns of string, integer and float
+   * `allBQSimpleTypes`, that contain columns of all types
+   * `safeBQTypesArray`, that contains array columns of string, integer and float
+
+Once your tables are set up, you can open the jupyter notebooks.
+
+```
+$ jupyter notebook simpleCSV.ipynb
+```
+
+Notebooks [simpleCSV.ipynb](https://github.com/BodonFerenc/BigQueryKdbInteroperability/blob/master/simpleCSV.ipynb), [simpleJSON.ipynb](https://github.com/BodonFerenc/BigQueryKdbInteroperability/blob/master/simpleJSON.ipynb) and simpleEmbedPy.ipynb work with simple table and demonstrate CSV, JSON and embedPy-based transfer respectively. Similarly, [arrayJSON.ipynb](https://github.com/BodonFerenc/BigQueryKdbInteroperability/blob/master/arrayJSON.ipynb) and arrayEmbedPy.ipynb demonstrate table transfer in which the table has array columns.

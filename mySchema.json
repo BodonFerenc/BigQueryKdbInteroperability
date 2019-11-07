@@ -1,0 +1,17 @@
+[
+ {
+   "name": "sA",
+   "type": "STRING",
+   "mode": "REPEATED"
+ },
+ {
+   "name": "fA",
+   "type": "FLOAT",
+   "mode": "REPEATED"
+ },
+ {
+   "name": "iA",
+   "type": "INTEGER",
+   "mode": "REPEATED"
+ }
+]

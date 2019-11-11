@@ -1,16 +1,16 @@
 [
  {
-   "name": "sA",
+   "name": "stringArray",
    "type": "STRING",
    "mode": "REPEATED"
  },
  {
-   "name": "fA",
+   "name": "floatArray",
    "type": "FLOAT",
    "mode": "REPEATED"
  },
  {
-   "name": "iA",
+   "name": "intArray",
    "type": "INTEGER",
    "mode": "REPEATED"
  }
